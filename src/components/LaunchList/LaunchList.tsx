@@ -12,6 +12,10 @@ interface Props extends OwnProps {
 const LaunchList: React.FC<Props> = ({ data, handleIdChange }) => (
   <div className="launchList">
     <h3 className="text__title launchList__title">Launches</h3>
+    <p
+      className="launchList__item"
+      onClick={() => handleIdChange(942)}
+    > -- Statistics -- </p>
     <ol className="launchList__list">
       {!!data.launches &&
         data.launches.map(

@@ -4,7 +4,6 @@ import LaunchList, {OwnProps} from './LaunchList';
 
 const LaunchListContainer = (props: OwnProps) => {
   const { data, error, loading } = useLaunchListQuery();
-  console.log("Launch data:", data);
   if (loading) {
     return <div className="loading">Loading...</div>;
   }
