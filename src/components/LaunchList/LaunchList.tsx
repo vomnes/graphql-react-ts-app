@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { LaunchListQuery } from '../../generated/graphql';
-import './styles.css';
+import './styles.scss';
 
 export interface OwnProps {
   handleIdChange: (newId: number) => void;

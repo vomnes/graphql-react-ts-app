@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { LaunchProfileQuery } from '../../generated/graphql';
-import './styles.css';
+import './styles.scss';
 interface Props {
   data: LaunchProfileQuery;
 }
