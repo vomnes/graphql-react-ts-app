@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700|family=Cabin:400&display=swap');
+
 :root {
 
-  --shadow-1: 0 .1rem .3rem rgba(0, 0, 0, 0.2);
-}
+  --shadow-1: 0 2px 4px 0 rgba(0,0,0,0.5);
 
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700&display=swap');
-$font-basic: 'Crimson Text', serif;
+  --font-basic: 'Crimson Text', serif;
+  --font-title: 'Cabin', serif;
+}

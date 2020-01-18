@@ -24,9 +24,9 @@ html {
 }
 
 body {
-  font-family: $font-basic;
+  font-family: var(--font-basic);
   font-weight: 400;
-  /* font-size: 16px; */
+  /* === font-size: 16px; === */
   line-height: 1.7;
   box-sizing: border-box; /* === Best Practice === */
 

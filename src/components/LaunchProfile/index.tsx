@@ -15,7 +15,7 @@ const LaunchProfileContainer = ({ id }: OwnProps) => {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
   if (loading) {
-    return <div>Loading...</div>;
+    return <div className="loading">Loading...</div>;
   }
   if (error) {
     return <div>ERROR</div>;

@@ -1,13 +1,17 @@
 .LaunchProfile {
   height: 100vh;
   max-height: 100%;
-  width: calc(100vw - 300px);
+  width: calc(100vw - 30rem);
   overflow: hidden auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 2rem;
+
+  font-size: 1.6rem;
 
   &__status {
-    margin-top: 40px;
+    text-align: center;
+    font-size: 2rem;
   }
   &__title {
     margin-top: 0;
@@ -20,13 +24,11 @@
     color: #ff695e;
   }
   &__image-list {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(2, 1fr);
     margin-top: 40px;
     padding-bottom: 100px;
   }
   &__image {
     width: 100%;
+    box-shadow: var(--shadow-1);
   }
 }
