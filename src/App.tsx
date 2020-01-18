@@ -1,7 +1,7 @@
 import React from 'react';
 import LaunchList from './components/LaunchList';
 import LaunchProfile from './components/LaunchProfile';
-import './App.css';
+import './App.scss';
 const App = () => {
   const [id, setId] = React.useState(42);
   const handleIdChange = React.useCallback(newId => {
