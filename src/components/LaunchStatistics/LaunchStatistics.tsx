@@ -29,13 +29,13 @@ const LaunchStatistics: React.FC<Props> = ({ data }) => {
   return (
     <div className="launchStatistics">
       <h1 className="text__title">Statistics</h1>
-      <p>
-        Success : { data.total.success }<br/>
-        Fail : { data.total.fail }<br/>
-        Total : { data.total.success + data.total.fail }<br/>
-        Upcoming launches : { data.upcoming }<br/>
-      </p>
-      <LineChart width={500} height={250} data={visualGraph}>
+      <div className="launchStatistics__data">
+        <p>Success : { data.total.success }</p>
+        <p>Fail : { data.total.fail }</p>
+        <p>Total : { data.total.success + data.total.fail }</p>
+        <p>Upcoming launches : { data.upcoming }</p>
+      </div>
+      <LineChart width={550} height={250} data={visualGraph}>
         <Line type="monotone" dataKey="uv" stroke="#3498db" />
         <CartesianGrid stroke="#2c3e50" strokeDasharray="5 5" />
         <XAxis dataKey="name" />
